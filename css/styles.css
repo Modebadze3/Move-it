@@ -1,0 +1,115 @@
+*{background-color: darkgrey}
+.container{position: relative;}
+.div1{
+  width: 100px;
+  height: 100px;
+  top: 0px;
+  left: 0px;
+  background: black;
+  position: absolute;
+  animation: mymove 3s infinite;
+}
+
+@keyframes mymove {
+  0% {left: 0px; top: 0px;}
+  25%{left: 0px; top: 774px;}
+  50%{left: 1170px; top: 774px;}
+  75%{left: 1170px; top: -0px;}
+
+}
+.div2{
+  width: 100px;
+  height: 100px;
+  top: 0px;
+  left: 0px;
+  background: red;
+  position: absolute;
+  animation: mymove 3.1s infinite;
+}
+.div3{
+  width: 100px;
+  height: 100px;
+  top: 0px;
+  left: 0px;
+  background: blue;
+  position: absolute;
+  animation: mymove 3.2s infinite;
+}
+.div4{
+  width: 100px;
+  height: 100px;
+  top: 0px;
+  left: 0px;
+  background: aqua;
+  position: absolute;
+  animation: mymove 3.3s infinite;
+}
+.div5{
+  width: 100px;
+  height: 100px;
+  top: 0px;
+  left: 0px;
+  background: purple;
+  position: absolute;
+  animation: mymove 3.4s infinite;
+}
+.div6{
+  width: 100px;
+  height: 100px;
+  top: 0px;
+  left: 0px;
+  background: green;
+  position: absolute;
+  animation: mymove 3.5s infinite;
+}
+.div7{
+  width: 100px;
+  height: 100px;
+  top: 0px;
+  left: 0px;
+  background: brown;
+  position: absolute;
+  animation: mymove 3.6s infinite;
+}.div8{
+  width: 100px;
+  height: 100px;
+  top: 0px;
+  left: 0px;
+  background: pink;
+  position: absolute;
+  animation: mymove 3.7s infinite;
+}
+.div9{
+  width: 100px;
+  height: 100px;
+  top: 0px;
+  left: 0px;
+  background: orange;
+  position: absolute;
+  animation: mymove 3.8s infinite;
+}
+.div10{
+  width: 100px;
+  height: 100px;
+  top: 0px;
+  left: 0px;
+  background: darkblue;
+  position: absolute;
+  animation: mymove 3.9s infinite;
+}
+.div11{
+  width: 100px;
+  height: 100px;
+  top: 0px;
+  left: 0px;
+  background: white;
+  position: absolute;
+  animation: mymove 4s infinite;
+}
+.mid{
+  width: 600px;
+}
+.mid img{
+  width: 600px;
+  margin: 50% 50%;
+}
